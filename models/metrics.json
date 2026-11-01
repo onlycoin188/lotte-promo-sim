@@ -1,0 +1,22 @@
+{
+  "train_rows": 5936,
+  "calib_rows": 1288,
+  "test_rows": 1708,
+  "calib_date": "2026-03-01",
+  "split_date": "2026-06-01",
+  "test_wape": 0.223,
+  "interval_coverage_80": 0.803,
+  "uplift_mae": 0.06,
+  "naive_appliance_card_uplift": 0.593,
+  "feature_importance": {
+    "price": 0.502,
+    "product_id": 0.359,
+    "hour": 0.092,
+    "card_disc": 0.02,
+    "weekday": 0.009,
+    "gift_pct": 0.008,
+    "recent_promo_cnt": 0.006,
+    "installment": 0.003,
+    "category": 0.0
+  }
+}
